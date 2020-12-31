@@ -93,7 +93,7 @@ Docker images are configured using parameters passed at runtime (such as those a
 | `PUID=1000` | for UserID - see below for explanation |
 | `PGID=1000` | for GroupID - see below for explanation |
 | `TZ=Europe/London` | Specify a timezone to use e.g. Europe/London |
-| `DOCKER_MODS=linuxserver/calibre-web:calibre|linuxserver/mods:lazylibrarian-ffmpeg` | Allows additional functionality to be added, e.g. the Calibredb import program (optional, more info below) |
+| `DOCKER_MODS=linuxserver/calibre-web:calibre\|linuxserver/mods:lazylibrarian-ffmpeg` | Allows additional functionality to be added, e.g. the Calibredb import program (optional, more info below) |
 
 ### Volume Mappings (`-v`)
 
